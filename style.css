@@ -8,3 +8,122 @@ body {
     font-family: "Jost", sans-serif;
 }
 
+header {
+    width: 100%;
+}
+
+.contacts {
+    max-width: 1300px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-contacts {
+    display: flex;
+    gap: 30px;
+}
+
+.phone-number {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 170px;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.social-media img {
+    width: 15px;
+    height: 15px;
+}
+
+
+.search {
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.cart-icons {
+    display: flex;
+    align-items: center;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.input-elements {
+    width: 603px;
+    height: 40px;
+    border: 1px solid #6F73EE;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 4px;
+}
+
+.catalog {
+    width: 114px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #6F73EE;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+select {
+    width: 76px;
+    height: 32px;
+    border: none;
+    background-color: #F4F7FB;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 4px;
+    padding-right: 6px;
+
+}
+
+.input-elements input {
+    width: 100%;
+    height: 38px;
+    border: none;
+    padding-left: 30px;
+    outline: none;
+}
+
+
+.search-btn {
+    width: 40px;
+    height: 40px;
+    background-color: #6F73EE;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.cart-icons {
+    width: 175px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
