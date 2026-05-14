@@ -300,6 +300,219 @@ select {
     margin: 20px 0;
 }
 
+
+
+.cards {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+.show-all {
+    width: 142px;
+    height: 53px;
+    border: 2px solid #6F73EE;
+    color: #6F73EE;
+    font-size: 16px;
+    background: transparent;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+}
+
+
+
+.section-3 {
+    width: 100%;
+}
+
+.father-3 {
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+
+.father-3 .manager {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.manager h1 {
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+
+.categories .category {
+    width: 277px;
+    height: 264px;
+    background-image: url(./img/white-robot.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+}
+
+.image-card {
+    width: 233px;
+    height: 69px;
+    border-radius: 10px;
+    /* background-image: url(); */
+    backdrop-filter: blur(5px);
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: white;
+    padding: 10px 15px;
+}
+
+.image-card h5 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+
+.image-card h5 span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: 68px;
+}
+
+.section-4 {
+    width: 100%;
+    padding: 0 30px;
+}
+
+
+.father-4 {
+    max-width: 1380px;
+    height: 623px;
+    background-color: #F4F7FB;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 145px 0 20px;
+}
+
+  
+.father-4 .child-1 {
+    width: 548px;
+    height: 565px;
+    background-image: url(./img/happy-young-company-smiling-friends-walking-street-with-electric-kick-scooter-man-women-having.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.test-drive {
+    width: 233px;
+    height: 139px;
+    backdrop-filter: blur(15px);
+    position: absolute;
+    color: white;
+    bottom: 30px;
+    right: 30px;
+    padding: 17px 35px 96px 21px;
+    border-radius: 10px;
+}
+
+
+.test-drive h4 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.test-drive p {
+    font-size: 14px;
+    width: 182px;
+    font-weight: 400;
+}
+
+.test-drive button {
+    width: 233px;
+    height: 42px;
+    color: white;
+    border-radius: 10px;
+    transform: translate(-21px, 30px);
+    background-color:#6F73EE;
+    border: none;
+    font-size: 14px;
+    display: flex;
+    padding: 0 22px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.child-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.child-2 h1 {
+    width: 540px;
+    font-size: 35px;
+    color: #282739;
+}
+
+.child-2 p {
+    width: 540px;
+    color: #282739;
+    font-size: 16px;
+}
+
+.plan {
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 21px 35px 21px 23px;
+}
+
+.plan h5 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.plan p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+.plan a {
+    font-weight: 400;
+    font-size: 12px;
+    color: #6F73EE;
+    text-decoration: none;
+
+}
+
 @media (max-width: 500px) {
     .contacts {
         flex-direction: column;
@@ -337,6 +550,19 @@ select {
         grid-template-columns: 60% 50%;
         gap: 10px;
         justify-content: center;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .manager {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
     }
   
 }
